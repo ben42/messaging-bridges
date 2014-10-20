@@ -6,7 +6,7 @@
     <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer" />
 
     <!-- Read from system property the file with the camel route definitions (e.g. camel-routes.xml) -->
-    <import resource="${bridge.configuration.routedefinitions}" />
+    <import resource="${bridge.routedefinitions}" />
 
     <bean id="jmsTransactionManager" class="org.springframework.transaction.jta.JtaTransactionManager">
         <property name="transactionManagerName" value="java:/TransactionManager" />

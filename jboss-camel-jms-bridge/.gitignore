@@ -1,0 +1,12 @@
+.project
+.settings/*
+jboss-camel-jms-bridge-web/.classpath
+jboss-camel-jms-bridge-web/.gitignore
+jboss-camel-jms-bridge-web/.project
+jboss-camel-jms-bridge-web/.settings/*
+jboss-camel-jms-bridge-web/target
+jboss-camel-jms-bridge-ear/.classpath
+jboss-camel-jms-bridge-ear/.gitignore
+jboss-camel-jms-bridge-ear/.project
+jboss-camel-jms-bridge-ear/.settings/*
+jboss-camel-jms-bridge-ear/target
