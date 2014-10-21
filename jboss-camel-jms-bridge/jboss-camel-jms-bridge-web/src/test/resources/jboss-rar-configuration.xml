@@ -13,10 +13,16 @@
     <config-property name="ServerUrl">
         ${activemq.serverUrl}
     </config-property>
+    <config-property name="UseInboundSession">
+        true
+    </config-property>
     <connection-definitions>
         <connection-definition class-name="org.apache.activemq.ra.ActiveMQManagedConnectionFactory"
             jndi-name="java:/AMQConnectionFactory" enabled="true" use-java-context="true" pool-name="ActiveMQConnectionFactoryPool"
             use-ccm="true">
+            <config-property name="UseInboundSession">
+                false
+            </config-property>
             <xa-pool>
                 <min-pool-size>1</min-pool-size>
                 <max-pool-size>10</max-pool-size>
